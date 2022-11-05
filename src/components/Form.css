@@ -1,0 +1,161 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    display: block;
+    height: fit-content;
+    width: 600px;
+    background-color: #ffffff;
+    box-shadow: inset;
+    justify-content: center;
+    /* position: relative;
+    top: -20px; */
+    padding-bottom: 40px;
+    
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+img{
+    height: 100px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+h1{
+    background-color: #06ffd5;
+    font-size: 40px;
+    width: 100vw;
+    color: #ffffff;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+button{
+    height: 60px;
+    width: 200px;
+    background-color: #dd7429;
+    color: #ffffff;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    outline: none;
+    border: 0px;
+    background-color: #dd7429;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding: 10px;
+    text-align: start;
+}
+
+.select option{
+    background-color: black;
+    color: #ffffff;
+}
+
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.questionLabel{
+    font-size: 20px;
+    text-align: start;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+.ansLabel{
+    text-align: start;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+input {
+    
+    outline: none;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+
+
+.add{
+    height: 36px;
+    width: 50px;
+    margin: 0px;
+    margin-left: -1px;
+}
+
+#option{
+    width: 200px;
+    height: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.ans{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: transparent;
+    padding-left: 10px;
+    width: 200px;
+    font-weight: 400;
+    color: black;
+    border: 1px solid #dd7429;
+}
+
+.btnStyle{
+    width: 150px;
+    padding-left: 5px;
+    padding-right: 5PX;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 10px;
+}

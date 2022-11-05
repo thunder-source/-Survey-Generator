@@ -1,0 +1,13 @@
+.userSurvey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    min-height: 70vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
